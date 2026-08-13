@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}header {
+    display: flex;
+    align-items: center;
+    padding: 18px 45px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f7f8f7;
+    color: #222;
+    
+}
+
+
+
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1767a5;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.login {
+    margin-left: 30px;
+    background-color: #1767a5;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+/* Home Page */
+
+.title {
+    text-align: center;
+    color: #0b0b91;
+    margin: 40px;
+}
+
+#log:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    flex-wrap: wrap;
+    padding: 10px 45px 55px;
+}
+
+.card {
+    width: 210px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card a {
+    text-decoration: none;
+    color: #222;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3,
+.card p {
+    padding-left: 15px;
+}
+
+.price {
+    color: #46a31c;
+    font-weight: bold;
+}
+
+.book {
+    margin: 12px 15px 18px;
+    padding: 10px;
+    text-align: center;
+    background-color: #58b52b;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.book:hover {
+    background-color: #d18435;
+}
+
+
+/* Individual Item Page */
+
+.item {
+    display: flex;
+    gap: 45px;
+    padding: 45px;
+}
+
+.photo {
+    width: 52%;
+}
+
+.photo img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details {
+    width: 48%;
+}
+
+.details h1 {
+    font-size: 36px;
+}
+
+.rating {
+    color: #888;
+}
+
+.rating b {
+    color: #d18435;
+}
+
+.available {
+    color: green;
+}
+
+
+/* Table */
+
+.spec {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.spec td {
+    border: 1px solid #ddd;
+    padding: 11px;
+}
+
+
+/* Booking */
+
+.booking {
+    margin-top: 25px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.booking input {
+    padding: 10px;
+    margin: 7px 15px 15px 0;
+}
+
+.pricebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricebox h2 {
+    color: #1767a5;
+}
+
+h4{
+    text-align: center;
+}
+
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #25a75b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #087f42;
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #071529;
+    color: white;
+    padding: 35px;
+}
+
+footer p {
+    color: #c8d0d8;
+}
+
+
+
+#car{
+    display: flex;
+    gap:0px;
+    justify-content: center;
+    padding:0px;
+    background-color: white;
+    margin-top:0px;
+
+}
+#food{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    padding: 40px;
+}
+ 
+book:hover{
+      background-color: #d18435;
+}
+
+
+.backimg{
+    margin-top: 0px;
+    padding:0;
+    height: 800px;
+    background-image: url('images/brackground.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    text-align: left;
+}
+
+.content {
+    background-color: rgba(202, 225, 221, 0.5);
+    padding: 255px 40px 255px;
+    border-radius: 10px;
+    margin-left: 0%;
+}

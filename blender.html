@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel Bag - RentIt</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🏠 RentIt</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html">Popular</a>
+        <a href="index.html">Latest</a>
+        <a href="index.html">Catalog</a>
+        <a href="index.html">About Us</a>
+    </nav>
+
+    <a class="login" href="#">Log In</a>
+
+</header>
+
+
+<div class="item">
+    <div class="photo">
+        <img src="images/blender.jpg">
+    </div>
+    <div class="details">
+
+        <h1>Blender</h1>
+
+        <p class="rating">
+            Rating: <b>4.3 ★</b>
+            • 12 reviews •
+            <span class="available">Available Now</span>
+        </p>
+
+        <p>
+            A convenient blender for hostel students. it can be used to
+            prepare smoothiess, juice, and other simple food items
+
+        </p>
+
+
+        <h3>Specifications</h3>
+
+        <table class="spec">
+
+            <tr>
+                <td>Category</td>
+                <td>Kitchen</td>
+            </tr>
+
+            <tr>
+                <td>Condition</td>
+                <td>Good</td>
+            </tr>
+
+            <tr>
+                <td>Suitable for</td>
+                <td>Hostel Students Students</td>
+            </tr>
+
+        </table>
+
+
+        <h3>Key Features</h3>
+
+        <ul>
+            <li>Easy to operate</li>
+            <li>Easy to clean</li>
+            <li>Useful for smmothies</li>
+            <li>Compact design</li>
+        </ul>
+
+
+        <!-- Booking Form -->
+
+        <div class="booking">
+
+            <h2>Book This Rental</h2>
+
+            <label>Start Date</label>
+            <input type="date" id="startDate">
+
+            <label>End Date</label>
+            <input type="date" id="endDate">
+
+
+            <div class="pricebox">
+
+                <div>
+                    <p>Daily Rate:</p>
+                    <h2>$3/day</h2>
+                </div>
+
+                <div>
+                    <p>Estimated Total:</p>
+                    <h2 id="total">$0</h2>
+                </div>
+
+            </div>
+            <input type="hidden" id="dailyPrice" value="7">
+
+
+            <button onclick="confirmBooking()">
+                Confirm Rental Booking
+            </button>
+
+
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <div>
+        <h2>🏠 RentIt</h2>
+        <p>Student-friendly rental platform.</p>
+    </div>
+
+    <div>
+        <h3>Quick Links</h3>
+        <p>Home</p>
+        <p>Popular Items</p>
+        <p>Latest Items</p>
+    </div>
+
+    <div>
+        <h3>Categories</h3>
+        <p>Electronics</p>
+        <p>Kitchen</p>
+        <p>Study</p>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <p>rentit@gmail.com</p>
+        <p>01234-567890</p>
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
+

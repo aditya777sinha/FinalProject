@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel Bag - RentIt</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🏠 RentIt</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html">Popular</a>
+        <a href="index.html">Latest</a>
+        <a href="index.html">Catalog</a>
+        <a href="index.html">About Us</a>
+    </nav>
+
+    <a class="login" href="#">Log In</a>
+
+</header>
+
+
+<div class="item">
+    <div class="photo">
+        <img src="images/lamp.jpg">
+    </div>
+    <div class="details">
+
+        <h1>Study Lamp></h1>
+
+        <p class="rating">
+            Rating: <b>4.7 ★</b>
+            • 10 reviews •
+            <span class="available">Available Now</span>
+        </p>
+
+        <p>
+            A useful study lamp for university students.Perfect for 
+            reading,studing, and working at night.Easy to use and 
+            suitable or hostel rooms
+        </p>
+
+        <h3>Specifications</h3>
+
+        <table class="spec">
+
+            <tr>
+                <td>Category</td>
+                <td>Study</td>
+            </tr>
+
+            <tr>
+                <td>Condition</td>
+                <td>Good</td>
+            </tr>
+
+            <tr>
+                <td>Suitable for</td>
+                <td>University Students</td>
+            </tr>
+
+        </table>
+
+
+        <h3>Key Features</h3>
+
+        <ul>
+            <li>Bright light</li>
+            <li>Easy to use</li>
+            <li>Low Electricity Use</li>
+            <li>Suitable for hostel life</li>
+        </ul>
+        <div class="booking">
+
+            <h2>Book This Rental</h2>
+
+            <label>Start Date</label>
+            <input type="date" id="startDate">
+
+            <label>End Date</label>
+            <input type="date" id="endDate">
+
+
+            <div class="pricebox">
+
+                <div>
+                    <p>Daily Rate:</p>
+                    <h2>$3/day</h2>
+                </div>
+
+                <div>
+                    <p>Estimated Total:</p>
+                    <h2 id="total">$0</h2>
+                </div>
+
+            </div>
+            <input type="hidden" id="dailyPrice" value="7">
+
+
+            <button onclick="confirmBooking()">
+                Confirm Rental Booking
+            </button>
+
+
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <div>
+        <h2>🏠 RentIt</h2>
+        <p>Student-friendly rental platform.</p>
+    </div>
+
+    <div>
+        <h3>Quick Links</h3>
+        <p>Home</p>
+        <p>Popular Items</p>
+        <p>Latest Items</p>
+    </div>
+
+    <div>
+        <h3>Categories</h3>
+        <p>Electronics</p>
+        <p>Kitchen</p>
+        <p>Study</p>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <p>rentit@gmail.com</p>
+        <p>01234-567890</p>
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
+

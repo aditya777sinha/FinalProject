@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7fbf8;
+  color: #222;
+}
+
+.navbar {
+  background: white;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.logo span {
+  color: #222;
+}
+
+.nav-links {
+  display: flex;
+  gap: 22px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.login-area {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: white;
+  width: 360px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px #ddd;
+}
+
+.login-card h1 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.login-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 22px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #9bb508;
+}
+
+#output {
+  margin-top: 15px;
+  text-align: center;
+  color: #2563eb;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 150px;
+  background: #222;
+  color: white;
+  height: 30px;
+}
