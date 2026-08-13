@@ -259,7 +259,7 @@ book:hover{
     margin-top: 0px;
     padding:0;
     height: 800px;
-    background-image: url('images/brackground.jpg');
+    background-image: url('./brackground.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
